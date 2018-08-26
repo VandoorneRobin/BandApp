@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BandApp", "BandApp\BandApp.csproj", "{7374262D-7FA1-445F-95D1-F91A9EB539C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyHobbies", "ClassLibrary1\MyHobbies.csproj", "{D4DAD6FD-165E-465D-80EE-E28CEE1DB126}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{7374262D-7FA1-445F-95D1-F91A9EB539C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7374262D-7FA1-445F-95D1-F91A9EB539C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7374262D-7FA1-445F-95D1-F91A9EB539C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4DAD6FD-165E-465D-80EE-E28CEE1DB126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4DAD6FD-165E-465D-80EE-E28CEE1DB126}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4DAD6FD-165E-465D-80EE-E28CEE1DB126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4DAD6FD-165E-465D-80EE-E28CEE1DB126}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,37 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Leden</title>
+</head>
+
+<body>
+    <h2>Bands Met Leden</h2>
+
+        <ol>
+            @foreach (var b in ViewBag.bands)
+            {
+                <li>
+                    @b.Naam (@b.Jaar)
+                    <ul>
+                        @foreach (var l in b.Leden)
+                        {
+                        <li>
+                            @l.Naam - @l.Leeftijd @(!l.Levend ? " - (+)" : "") - @l.Geslacht
+                        </li> 
+                        }
+                    </ul>
+                </li>
+            }
+        </ol>
+
+    <a 
+</body>
+
+</html>
+
